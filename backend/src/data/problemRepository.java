@@ -42,6 +42,47 @@ public class problemRepository {
         problemsList.add(new problem("Longest Valid Parentheses", "Strings", "Hard", "https://leetcode.com/problems/longest-valid-parentheses"));
         problemsList.add(new problem("Distinct Subsequences", "Strings", "Hard", "https://leetcode.com/problems/distinct-subsequences"));
         
+
+        //Recursion problems
+        problemsList.add(new problem("Fibonacci Number", "Recursion", "Easy", "https://leetcode.com/problems/fibonacci-number"));
+        problemsList.add(new problem("Climbing Stairs", "Recursion", "Easy", "https://leetcode.com/problems/climbing-stairs"));
+        problemsList.add(new problem("Power of Two", "Recursion", "Easy", "https://leetcode.com/problems/power-of-two"));
+        problemsList.add(new problem("Reverse String", "Recursion", "Easy", "https://leetcode.com/problems/reverse-string"));
+        problemsList.add(new problem("Subsets", "Recursion", "Medium", "https://leetcode.com/problems/subsets"));
+        problemsList.add(new problem("Permutations", "Recursion", "Medium", "https://leetcode.com/problems/permutations"));)
+        problemsList.add(new problem("Combination Sum", "Recursion", "Medium", "https://leetcode.com/problems/combination-sum"));
+        problemsList.add(new problem("Generate Parentheses", "Recursion", "Medium", "https://leetcode.com/problems/generate-parentheses"));
+        problemsList.add(new problem("Letter Combinations of a Phone Number", "Recursion", "Medium", "https://leetcode.com/problems/letter-combinations-of-a-phone-number"));
+        problemsList.add(new problem("Word Search", "Recursion", "Medium", "https://leetcode.com/problems/word-search"));
+        problemsList.add(new problem("Restore IP Addresses", "Recursion", "Medium", "https://leetcode.com/problems/restore-ip-addresses"));
+        problemsList.add(new problem("N-Queens", "Recursion", "Hard", "https://leetcode.com/problems/n-queens"));
+        problemsList.add(new problem("Sudoku Solver", "Recursion", "Hard", "https://leetcode.com/problems/sudoku-solver"));
+        problemsList.add(new problem("Expression Add Operators", "Recursion", "Hard", "https://leetcode.com/problems/expression-add-operators"));
+        problemsList.add(new problem("Palindrome Partitioning", "Recursion", "Hard", "https://leetcode.com/problems/palindrome-partitioning"));
+        
+        
+        //Linked List problems
+        problemsList.add(new problem("Reverse Linked List", "Linked List", "Easy", "https://leetcode.com/problems/reverse-linked-list"));
+        problemsList.add(new problem("Merge Two Sorted Lists", "Linked List", "Easy", "https://leetcode.com/problems/merge-two-sorted-lists"));
+        problemsList.add(new problem("Linked List Cycle", "Linked List", "Easy", "https://leetcode.com/problems/linked-list-cycle"));
+        problemsList.add(new problem("Remove Duplicates from Sorted List", "Linked List", "Easy", "https://leetcode.com/problems/remove-duplicates-from-sorted-list"));
+        problemsList.add(new problem("Intersection of Two Linked Lists", "Linked List", "Easy", "https://leetcode.com/problems/intersection-of-two-linked-lists"));
+        problemsList.add(new problem("Add Two Numbers", "Linked List", "Medium", "https://leetcode.com/problems/add-two-numbers"));
+        problemsList.add(new problem("Remove Nth Node From End of List", "Linked List", "Medium", "https://leetcode.com/problems/remove-nth-node-from-end-of-list"));
+        problemsList.add(new problem("Copy List with Random Pointer", "Linked List", "Medium", "https://leetcode.com/problems/copy-list-with-random-pointer"));
+        problemsList.add(new problem("Sort List", "Linked List", "Medium", "https://leetcode.com/problems/sort-list"));
+        problemsList.add(new problem("Reverse Nodes in k-Group", "Linked List", "Medium", "https://leetcode.com/problems/reverse-nodes-in-k-group"));
+        problemsList.add(new problem("Merge k Sorted Lists", "Linked List", "Hard", "https://leetcode.com/problems/merge-k-sorted-lists"));
+        problemsList.add(new problem("Reverse Linked List II", "Linked List", "Hard",   "https://leetcode.com/problems/reverse-linked-list-ii"));                               
+        problemsList.add(new problem("Split Linked List in Parts", "Linked List", "Hard", "https://leetcode.com/problems/split-linked-list-in-parts"));
+        problemsList.add(new problem("Merge k Sorted Lists", "Linked List", "Hard", "https://leetcode.com/problems/merge-k-sorted-lists"));
+        problemsList.add(new problem("Reorder List", "Linked List", "Hard", "https://leetcode.com/problems/reorder-list")); 
+
+        //Stack Problems
+        
+        
+        
+        
         
         
         return problemsList;
