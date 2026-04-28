@@ -5,6 +5,7 @@ import java.util.*;
 
 public class problemRepository {
     public static List<problem> getAllProblems(){
+        //Making a list a store all the problems currently avaoilable in the dataset.
         List<problem> problemsList = new ArrayList<>();
 
         //Array problems
@@ -79,11 +80,38 @@ public class problemRepository {
         problemsList.add(new problem("Reorder List", "Linked List", "Hard", "https://leetcode.com/problems/reorder-list")); 
 
         //Stack Problems
-        
-        
-        
-        
-        
+        problemList.add(new problem("Valid Parentheses", "Stack", "Easy", "https://leetcode.com/problems/valid-parentheses"));
+        problemList.add(new problem("Min Stack", "Stack", "Easy", "https://leetcode.com/problems/min-stack"));
+        problemList.add(new problem("Implement Queue using Stacks", "Stack", "Easy", "https://leetcode.com/problems/implement-queue-using-stacks"));
+        problemList.add(new problem("Baseball Game", "Stack", "Easy", "https://leetcode.com/problems/baseball-game"));
+        problemList.add(new problem("Evaluate Reverse Polish Notation", "Stack", "Medium", "https://leetcode.com/problems/evaluate-reverse-polish-notation"));
+        problemList.add(new problem("Daily Temperatures", "Stack", "Medium", "https://leetcode.com/problems/daily-temperatures"));
+        problemList.add(new problem("Next Greater Element I", "Stack", "Medium", "https://leetcode.com/problems/next-greater-element-i"));
+        problemList.add(new problem("Next Greater Element II", "Stack", "Medium", "https://leetcode.com/problems/next-greater-element-ii"));
+        problemList.add(new problem("Next Greater Element III", "Stack", "Medium", "https://leetcode.com/problems/next-greater-element-iii"));
+        problemList.add(new problem("Daily Temperatures", "Stack", "Medium", "https://leetcode.com/problems/daily-temperatures"));
+        problemList.add(new problem("Asteroid Collision", "Stack", "Medium", "https://leetcode.com/problems/asteroid-collision"));
+        problemList.add(new problem("Reverse Polish Notation", "Stack", "Medium", "https://leetcode.com/problems/reverse-polish-notation"));
+        problemList.add(new problem("Largest Rectangle in Histogram", "Stack", "Hard", "https://leetcode.com/problems/largest-rectangle-in-histogram"));
+        problemList.add(new problem("Trapping Rain Water", "Stack", "Hard", "https://leetcode.com/problems/trapping-rain-water"));
+        problemList.add(new problem("Basic Calculator", "Stack", "Hard", "https://leetcode.com/problems/basic-calculator"));
+
+        //Queue Problems
+        problemList.add(new problem("Implement Queue using Stacks", "Queue", "Easy", "https://leetcode.com/problems/implement-queue-using-stacks"));
+        problemList.add(new Problem("Number of Recent Calls", "Queue", "Easy", "https://leetcode.com/problems/number-of-recent-calls"));
+        problemList.add(new problem("Recent Counter", "Queue", "Easy", "https://leetcode.com/problems/recent-counter"));
+        problemList.add(new problem("Time Needed to Buy Tickets", "Queue", "Easy", "https://leetcode.com/problems/time-needed-to-buy-tickets"));
+        problemList.add(new problem("Design Circular Queue", "Queue", "Medium", "https://leetcode.com/problems/design-circular-queue"));
+        problemList.add(new problem("Design Circular Deque", "Queue", "Medium", "https://leetcode.com/problems/design-circular-deque"));
+        problemList.add(new problem("Binary Tree Level Order Traversal", "Queue", "Medium", "https://leetcode.com/problems/binary-tree-level-order-traversal"));
+        problemList.add(new problem("Course Schedule", "Queue", "Medium", "https://leetcode.com/problems/course-schedule"));
+        problemList.add(new problem("Design Snake Game", "Queue", "Medium", "https://leetcode.com/problems/design-snake-game"));
+        problemList.add(new problem("Task Scheduler", "Queue", "Medium", "https://leetcode.com/problems/task-scheduler"));
+        problemList.add(new problem("Open the Lock", "Queue", "Medium", "https://leetcode.com/problems/open-the-lock"));
+        problemList.add(new problem("Rotten Oranges", "Queue", "Medium", "https://leetcode.com/problems/rotten-oranges"));
+        problemList.add(new problem("Minimum Number of Refueling Stops", "Queue", "Hard", "https://leetcode.com/problems/minimum-number-of-refueling-stops"));
+        problemList.add(new problem("Design Twitter", "Queue", "Hard", "https://leetcode.com/problems/design-twitter"));
+        problemList.add(new problem("Design Underground System", "Queue", "Hard", "https://leetcode.com/problems/design-underground-system"));
         
         return problemsList;
     }
